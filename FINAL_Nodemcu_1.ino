@@ -112,7 +112,7 @@ void sendData(int deviceid)
           Serial.print(power, 1);
           Serial.println();
           String value_current = String(current);
-          pubString += ",\"Current(I)\":" + value_current;
+          pubString += ",\"Current(A)\":" + value_current;
           String value_power = String(power);
           pubString += ",\"Power(W)\":" + value_power + "}";
                             
